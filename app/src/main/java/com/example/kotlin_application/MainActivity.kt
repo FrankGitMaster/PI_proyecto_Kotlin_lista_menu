@@ -23,13 +23,13 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            HolaMundo()
+            Main()
         }
     }
 }
 
 @Composable
-fun HolaMundo() {
+fun Main() {
     // Usamos recursos locales en lugar de URLs
     val menu = listOf(
         Dish("Pizza", R.drawable.pizza),
